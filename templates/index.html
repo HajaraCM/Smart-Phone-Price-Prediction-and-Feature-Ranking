@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/style.css">
+  <title>smartphone</title>
+</head>
+
+<body>
+  <h1>SMARTPHONES PRICE RANGE PREDICTION AND FEATURES RANKING</h1>
+  
+  <div class="container">        
+                 
+    <form action="/predict" method="post" >
+
+      <div class="fields">
+
+        <div class="input-field">
+          <label for="battery">Battery Power</label>
+          <input type="text", id="name", name="battery", required="required", placeholder="Enter the Value(in mAh)">
+         
+        </div>
+        <div class="input-field">
+         <label for="blue">Bluetooth</label>
+         <select name="blue" id="name" required="required">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+        </div>
+        <div class="input-field">
+         <label for="clock"> Clock Speed</label>
+         <input type="text",id="name", name="clock", required="required", placeholder="Enter the Value">
+        </div>
+        <div class="input-field">
+          <label for="sim">Dual sim</label>
+          <select name="sim" id="name" required="required">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+        </div>
+        <div class="input-field">
+          </label for="Front Camera">Front Camera</label>
+          <input type="text",id="name",  name="frontcamera", required="required", placeholder="Enter the value(in MP)">
+        </div>
+        <div class="input-field">
+          <label for="4G">4G</label>
+          <select name="4G" id="name" required="required">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+        </div>
+        <div class="input-field">
+        </label for="memory">Internal Memory</label>
+        <input type="text",id="name",  name="memory", required="required", placeholder="Enter the value(in GB)">
+      </div>
+      <div class="input-field">
+        <label for="depth">Mobile Depth</label>
+        <input type="text",id="name",  name="depth", required="required", placeholder="Enter the value(in cm)">
+      </div>
+      <div class="input-field">
+        <label for="weight">Mobile Phone Weight</label>
+        <input type="text",id="name",  name="weight", required="required", placeholder="Enter the value(in mm)">
+      </div>
+      <div class="input-field">
+        <label for="cores">Number of Processor Cores</label>
+        <input type="text",id="name",  name="cores", required="required", placeholder="Enter the value">
+      </div>
+
+      <div class="input-field">
+        <label for="camera">Primary Camera</label>
+        <input type="text",id="name",  name="camera", required="required", placeholder="Enter the value(in MP)">
+      </div>
+      <div class="input-field">
+        <label for="height">Pixel Resolution Height</label>
+       <input type="text",id="name",  name="height", required="required", placeholder="Enter the value">
+      </div>
+      <div class="input-field">
+        <label for="width">Pixel Resolution Width</label>
+        <input type="text",id="name",  name="width", required="required", placeholder="Enter the value">
+      </div>
+      <div class="input-field">
+        <label for="ram">RAM</label>
+        <input type="text",id="name",  name="ram", required="required", placeholder="Enter the value(in MB)">
+      </div>
+      <div class="input-field">
+        <label for="srheight">Screen Height</label>
+        <input type="text",id="name",  name="srheight", required="required", placeholder="Enter the value(in cm)">
+      </div>
+      <div class="input-field">
+        <label for="srwidth">Screen Width</label>
+        <input type="text",id="name",  name="srwidth", required="required", placeholder="Enter the value(in cm)">
+      </div>
+
+      <div class="input-field">
+        <label for="time">Talk Time</label>
+       <input type="text",id="name",  name="time", required="required", placeholder="Enter the value">
+      </div>
+      <div class="input-field">
+        <label for="3G">3G</label>
+        <select name="3G" id="name" required="required">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+      </div>
+      <div class="input-field">
+        <label for="touchscreen">Touch Screen</label>
+        <select name="touchscreen" id="name" required="required">
+         <option value="Yes">Yes</option>
+         <option value="No">No</option>
+        </select>
+      </div>
+      <div class="input-field">
+        <label for="wifi">Wifi</label>
+        <select name="wifi" id="name" required="required">
+         <option value="Yes">Yes</option>
+         <option value="No">No</option>
+        </select>
+      </div>
+      <div class="input-field">
+        <input id="submit", type="submit", value="Submit">
+      </div>
+    </form>
+  </div> 
+    
+</body>
+</html>
