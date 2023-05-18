@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins','sans-serif';
+    
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #71b7e6,#9b59b6);
+    
+}
+h1{
+   top: 20px;
+    position: absolute;
+}
+
+.container{
+   justify-content: center;
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    position: relative;
+    
+    
+    
+}
+.container form{
+    position: relative;
+    min-height: 450px;
+    background-color: #fff;
+   
+}
+form .fields{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+form .fields .input-field{
+    display: flex;
+    width: calc(100% / 3 - 30px);
+    flex-direction: column; 
+    margin: 4px 0;
+}
+
+.input-field label{
+    font-size: 15px;
+    font-weight: 500;
+    
+
+}
+
+.input-field input,select{
+    padding: 0 15px;
+    outline: none;
+    border: 1px solid #2e2e2e;
+    height: 30px;
+    margin: 7px 0;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+}
+.input-field input,select:is(:focus, :valid){
+    box-shadow: 0 3px 6px rgba(0,0,0,0.18);
+}
+#submit{
+    margin-top: 20px;
+    color:#fff;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    background:linear-gradient(135deg, #71b7e6,#9b59b6); 
+}
+#submit:hover{
+    background:linear-gradient(-135deg, #71b7e6,#9b59b6);
+}
+
+
