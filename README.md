@@ -12,4 +12,4 @@ The dataset has 2000 rows and 21 features of a smart phone. To proceed with this
 * Ranked the features based on their importance scores.
 * Implemented a user interface to collect feature requests from users and update the feature ranking based on the user feedback.
 
-Website Link: [Smartphones Price Predicton and Features Ranking ](https://hajara20.pythonanywhere.com/)
+Website Link: [Smartphones Price Prediction and Features Ranking ](https://hajara20.pythonanywhere.com/)
