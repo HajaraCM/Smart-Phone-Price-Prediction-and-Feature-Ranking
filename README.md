@@ -24,6 +24,7 @@ In this project, the “Mobile Price Classification” dataset from Kaggle.com w
 
 In today’s world mobile are one of the most commonly used gadgets. Everyone from a child to an adult uses mobile phones these days. Mobile phones indeed make our lives easy and convenient. Earlier they are used for calling only nowadays mobile phones can be used for almost everything. And phones of this age are now called smartphones. The use of smartphone technologies in mobile applications also provides new possibilities and better performance. Today, mobile phones come with different features according to the customer’s choice and need. Among thousands of companies, offering their technology to customers, choosing the appropriate phone for an individual has become an issue. Thus, the decision-making process becomes more challenging in recent times. Before buying a phone, customers usually look for reviews to decide which phone to buy and their very first question is about the price of the phone. The main aim of this project is a comparative study of various machine learning models which analyzes and considers different characteristics and features of a cell phone would categorize the price range of the same and ranks them accordingly. In this project, the “Mobile Price Classification” dataset from Kaggle is taken which includes a training dataset that is used to train the model, and a testing dataset is used to perform predictions.
 
+
 ## Technologies Used
 
 
@@ -41,6 +42,7 @@ In today’s world mobile are one of the most commonly used gadgets. Everyone fr
 
 ## Model Deployment
 
+* The model is deployed using Flask at Pythonanywhere at the [link](https://hajara20.pythonanywhere.com/)
 
 ## Future Scope
 
