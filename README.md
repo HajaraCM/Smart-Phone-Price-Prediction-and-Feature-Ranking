@@ -5,10 +5,13 @@
   * [Overview](#overview)
   * [Motivation](#motivation)
   * [Model Creation](#model-creation)
+  * [Model Deployment](#model-deployment)
   * [Future scope of project](#future-scope)
   
 ## Demo
-  
+
+ Website Link: [Smartphones Price Prediction and Features Ranking ](https://hajara20.pythonanywhere.com/)
+ 
 ![Screenshot_20230511_095231](https://github.com/HajaraCM/Smart-Phone-Price-Prediction-and-Feature-Ranking/assets/117503246/8197a0b5-b82a-4d8e-b1b0-70b60ddd7e93)
 
 ![Screenshot_20230511_095308](https://github.com/HajaraCM/Smart-Phone-Price-Prediction-and-Feature-Ranking/assets/117503246/f391385d-3204-466e-9606-52bcd56e2003)
@@ -32,7 +35,11 @@ In today’s world mobile are one of the most commonly used gadgets. Everyone fr
 
 ## Model Creation
 
-* 
+* Different types of models were tried like logistic regression,support vector machine, k-nearest neighbour, xgboost and gradient boost.
+* Out of these logistic regression,xgboost and gradient boost were top 3.
+* The conclusion were made using classification metrics.
+
+## Model Deployment
 
 
 ## Future Scope
@@ -46,4 +53,3 @@ In today’s world mobile are one of the most commonly used gadgets. Everyone fr
 
 
 
-Website Link: [Smartphones Price Prediction and Features Ranking ](https://hajara20.pythonanywhere.com/)
