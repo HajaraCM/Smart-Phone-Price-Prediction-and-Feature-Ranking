@@ -44,11 +44,6 @@ In today’s world mobile are one of the most commonly used gadgets. Everyone fr
 
 * The model is deployed using Flask at Pythonanywhere at the [link](https://hajara20.pythonanywhere.com/)
 
-## Future Scope
-
-* Use multiple Algorithms
-* Optimize Flask app.py
-* Front-End 
 
 
 
